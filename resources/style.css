@@ -42,11 +42,17 @@ h1 {
 .container {
   display: flex;
   align-items: center;
+  max-width: 960px;
 }
 
 .company .container {
   justify-content: flex-start;
-  max-width: 960px;
   padding-top: .66rem;
   padding-bottom: .66rem;
+}
+.red {
+  display: flex;
+}
+.red .container{
+  background-color: red;
 }
