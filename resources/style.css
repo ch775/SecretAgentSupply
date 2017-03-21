@@ -10,6 +10,7 @@ header {
   background-size: cover;
   height: 25rem;
   display: flex;
+  justify-content: center;
 }
 #blackbox {
   display: block;
@@ -31,6 +32,8 @@ h1 {
 .company {
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .container img{
@@ -42,7 +45,7 @@ h1 {
 .container {
   display: flex;
   align-items: center;
-  max-width: 960px;
+  width: 960px;
 }
 
 .company .container {
@@ -50,12 +53,36 @@ h1 {
   padding-top: .66rem;
   padding-bottom: .66rem;
 }
+.red .container {
+  align-content: center;
+  justify-content: space-between;
+}
 .red {
   display: flex;
   background-color: firebrick;
   color: white;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  justify-content: space-around;
   margin: 0 auto;
+  justify-content: center;
+}
+
+.product_image img {
+  height: auto;
+  max-width: 8rem;
+  padding: 1rem 2rem;
+  border: 4px solid black;
+}
+.product_pen,
+.product_glasses,
+.product_watch {
+  display: inline-block;
+  width: 30%;
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
