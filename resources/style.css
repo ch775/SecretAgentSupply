@@ -52,7 +52,10 @@ h1 {
 }
 .red {
   display: flex;
-}
-.red .container{
-  background-color: red;
+  background-color: firebrick;
+  color: white;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  justify-content: space-around;
+  margin: 0 auto;
 }
