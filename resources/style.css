@@ -76,27 +76,26 @@ h1 {
 .product_glasses,
 .product_watch {
   width: 30%;
+  }
+
+.product_image {
   border: 4px solid black;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3em 0 0 0;
+  height: 9rem;
 }
-.products {
+.container .products {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 960px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-.products .container {
-  align-items: center;
-  justify-content: center;
 }
 #sub_banner {
   width: 100%;
   justify-content: center;
+  margin: 3rem 0;
 }
 .description{
   background-color: black;
@@ -129,9 +128,6 @@ div {
   justify-content: space-between;
 }
 
-span {
-  display: block;
-}
 footer{
   display: flex;
   background-color: black;
@@ -144,4 +140,9 @@ footer .container {
 }
 span {
   display: block;
+}
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  .red .container {
+    display: none;
+  }
 }
