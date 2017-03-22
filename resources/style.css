@@ -113,9 +113,12 @@ div {
 .hours {
   background-color: black;
   color: white;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
+  padding: 1em 2em;
+}
+
+.info {
+  width: 35%;
+  margin-bottom: 4rem;
 }
 
 .contact {
@@ -124,4 +127,18 @@ div {
 }
 .contact .container {
   justify-content: space-between;
+}
+
+span {
+  display: block;
+}
+footer{
+  display: flex;
+  background-color: black;
+  color:white;
+  height: 5rem;
+  justify-content: center;
+}
+footer .container {
+  justify-content: flex-start;
 }
