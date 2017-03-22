@@ -81,6 +81,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 3em 0 0 0;
 }
 .products {
   display: flex;
@@ -97,7 +98,7 @@ h1 {
   width: 100%;
   justify-content: center;
 }
-.description {
+.description{
   background-color: black;
   color: white;
   display: block;
@@ -107,6 +108,20 @@ h1 {
 div {
   display: block;
 }
-#pen {
-  display: block;
+
+.location,
+.hours {
+  background-color: black;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact .container {
+  justify-content: space-between;
 }
