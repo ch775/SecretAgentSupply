@@ -168,4 +168,13 @@ span {
   align-items: center;
 }
 
+.product_glasses {
+  display:none;
+}
+
+.product_pen,
+.product_watch{
+  width: 47%;
+}
+
 }
