@@ -141,8 +141,31 @@ footer .container {
 span {
   display: block;
 }
+
+/*Media Querys */
+
+@media only screen and (min-width: 1024px) {
+  #tablet{
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
+  .red,
   .red .container {
     display: none;
   }
+  #tablet {
+    color: white;
+    background-color: firebrick;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+  }
+#tablet span {
+  align-items: center;
+}
+
 }
